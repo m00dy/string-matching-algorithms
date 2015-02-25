@@ -1,0 +1,13 @@
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_01/hs_alt_CHM1_1.1_chr1.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_02/hs_alt_CHM1_1.1_chr2.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_03/hs_alt_CHM1_1.1_chr3.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_04/hs_alt_CHM1_1.1_chr4.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_05/hs_alt_CHM1_1.1_chr5.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_06/hs_alt_CHM1_1.1_chr6.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_07/hs_alt_CHM1_1.1_chr7.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_08/hs_alt_CHM1_1.1_chr8.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_09/hs_alt_CHM1_1.1_chr9.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_10/hs_alt_CHM1_1.1_chr10.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_11/hs_alt_CHM1_1.1_chr11.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_12/hs_alt_CHM1_1.1_chr12.fa.gz
+ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/CHR_13/hs_alt_CHM1_1.1_chr13.fa.gz
