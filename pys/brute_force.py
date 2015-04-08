@@ -28,9 +28,12 @@ def brute_force(pattern,subject):
 
 file = open('data/genome.dat','rb')
 subject = file.read()
+pattern = 'ATGTATATATATATATATAATATATATATATATATATATATATATATA'
 
-pattern = 'CACGTTGCAGTGCACACCTGTAGTCCGAGCTACTGGGGAGGCTAAGCCTGGAGGATCACTTGAGTCTGT'
+from ctypes import cdll
+bom_lib = cdll.LoadLibrary("brute_force.so")
+bom_lib.BF(pattern,len(pattern),subject,len(subject))
 
-print brute_force(pattern,subject)
+#print brute_force(pattern,subject)
 
 

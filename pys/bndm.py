@@ -46,9 +46,9 @@ def build_b_table(pattern):
     s <<= 1
   return B
 
-file = open('data/genome.dat','rb')
+file = open('data/genome2.dat','rb')
 
-pattern = "CACGTTGCAGTGCACACCTGTAGTCCGAGCTACTGGGGAGGCTAAGCCTGGAGGATCACTTGAGTC"
+pattern = "ATGTA"
 print len(pattern)
 
 B = build_b_table(pattern)

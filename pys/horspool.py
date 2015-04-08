@@ -6,8 +6,7 @@ def build_mismatch_table(pattern):
   m = len(pattern)
   table[-1] = m
   for j in range(m-1):
-    table[pattern[j]] = m -1 -j
-  
+    table[pattern[j]] = m -1 -j  
   print "Build mismatch table ends"
   return table    
 
@@ -39,9 +38,16 @@ def horspool_test(subject,pattern):
   print lookup_shift_table(table,'G')
   print lookup_shift_table(table,'T')
 
+
 print "File read starts"
 file = open('data/genome.dat','rb')
 subject = file.read()
 print "File read ends"
+#pattern = "ATGTATATATATATATATAATATATATATATATATATATATATATATA"
+pattern = "ATGTA"
 
-print horspool(subject,"ATGTA")
+#print horspool(subject,"ATGTATATATATATATATAATATATATATATATATATATATATATATA")
+
+from ctypes import cdll
+bom_lib = cdll.LoadLibrary("horspool.so")
+bom_lib.HORSPOOL(pattern,len(pattern),subject,len(subject))

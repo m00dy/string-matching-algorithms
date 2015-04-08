@@ -1,0 +1,8 @@
+#!/bin/bash
+
+gcc -o libs/bom.so -shared -fPIC libs/bom.c
+gcc -o libs/horspool.so -shared -fPIC libs/horspool.c
+gcc -o libs/brute_force.so -shared -fPIC libs/brute_force.c
+gcc -o libs/bndm.so -shared -fPIC libs/bndm.c
+
+export LD_LIBRARY_PATH=.
