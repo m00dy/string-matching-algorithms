@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gcc -o bom.so -shared -fPIC bom.c
+export LD_LIBRARY_PATH=.
