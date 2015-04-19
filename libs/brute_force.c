@@ -39,7 +39,7 @@ void BF(char *x, int m, char *y, int n) {
   for (yb = y; *y != EOS; ++y) 
     if (memcmp(x, y, m) == 0) trobats++; 
   //printf("j=%d \n",y - yb);
-  printf("trobats %d",trobats);
+  //printf("trobats %d",trobats);
 }
 
 int main(int argc, char *argv[])

@@ -95,7 +95,7 @@ void BOM(char *x, int m, char *y, int n) {
          --i;
       }
       if (i < 0) {
-         printf("j is %d",j);
+         //printf("j is %d",j);
          shift = period;
       }
       j += shift;

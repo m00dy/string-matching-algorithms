@@ -27,8 +27,9 @@ void BNDM(char *x, int m, char *y, int n) {
       if (d != 0){
     if (i >= 0)
       last = i+1;
-    else
-       printf("%d",j);
+    else{
+      // printf("%d",j);
+    }
        }
        d <<= 1;
      }

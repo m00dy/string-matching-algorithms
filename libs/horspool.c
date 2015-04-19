@@ -53,7 +53,7 @@ void HORSPOOL(char *x, int m, char *y, int n) {
    while (j <= n - m) {
       c = y[j + m - 1];
       if (x[m - 1] == c && memcmp(x, y + j, m - 1) == 0){
-      printf("j=%d \n",j);
+      //printf("j=%d \n",j);
       }
 
       j += bmBc[c];
