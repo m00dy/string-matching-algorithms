@@ -19,13 +19,15 @@ Build
 
 **Building test data.**
 
-ÂÂÂ```
+
+```
 bash /data/build
 ```
 
 This will download around 2gb genome data and merge it to one file.
 
 **Building searching algorithms**
+
 
 ```
 bash build
@@ -36,9 +38,12 @@ will try to compile matching algorithms as shared library.
 
 Run the tests
 --------------
+
+
 ```
 python run_and_test.py
 ```
+
 
 this will generate random input set and run each algorithm according to random input. Plot.ly integration is required to draw the plot afterward.
 
