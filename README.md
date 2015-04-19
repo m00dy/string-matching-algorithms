@@ -4,7 +4,7 @@ Popular string matching algorithms &amp; comparison &amp; charts
 
 This repository is all about string searching algorithms.
 
-Algorithms have been tested so far are, BOM, BruteForce, Horspool, BNDM.
+Algorithms have been tested so far are, **BOM**, **BruteForce**, **Horspool**, **BNDM**.
 
 Algorithms implementations are taken from http://www-igm.univ-mlv.fr/~lecroq/string/
 
@@ -13,7 +13,9 @@ Testing data is taken from http://www.ncbi.nlm.nih.gov/genome
 ![alt tag](https://raw.github.com/erenyagdiran/string-matching-algorithms/master/string_search_algorithms.png)
 
 
+
 **Build
+--------------
 
 *Building test data.
 
