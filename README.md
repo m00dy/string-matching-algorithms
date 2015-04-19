@@ -14,24 +14,31 @@ Testing data is taken from http://www.ncbi.nlm.nih.gov/genome
 
 
 
-**Build
+Build
 --------------
 
-*Building test data.
+**Building test data.**
 
-./data/build
+ÂÂÂ```
+bash /data/build
+```
 
 This will download around 2gb genome data and merge it to one file.
 
-*Building searching algorithms
+**Building searching algorithms**
 
-./build
+```
+bash build
+```
 
 will try to compile matching algorithms as shared library.
 
-*Run the tests
 
+Run the tests
+--------------
+```
 python run_and_test.py
+```
 
 this will generate random input set and run each algorithm according to random input. Plot.ly integration is required to draw the plot afterward.
 
