@@ -6,7 +6,6 @@ file = open('data/genome.dat','rb')
 subject = file.read()
 lsubject = len(subject)
 
-pattern = "ATGTATATATATGTATAATTATAAA"
 
 from ctypes import cdll
 bruteforce = cdll.LoadLibrary("libs/brute_force.so")
