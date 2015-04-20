@@ -11,8 +11,8 @@ Algorithms implementations are taken from http://www-igm.univ-mlv.fr/~lecroq/str
 Testing data is taken from http://www.ncbi.nlm.nih.gov/genome
 
 ![alt tag](https://raw.github.com/erenyagdiran/string-matching-algorithms/master/string_search_algorithms.png)
-y axis represents time in seconds.
-x axis represents input size which is basically a python string
+Y axis represents time in seconds.
+X axis represents input size which is basically a python string
 
 
 Build
@@ -25,7 +25,7 @@ Build
 bash /data/data_builder.bash
 ```
 
-This will download around 2gb genome data and merge it to one file.
+This will download around 2gb genome files and merge them to one file.
 
 **Building searching algorithms**
 
@@ -46,6 +46,6 @@ python run_and_test.py
 ```
 
 
-this will generate random input set and run each algorithm according to random input. 
+This will generate random input set and run each algorithm according to random input. 
 Plot.ly integration is required to draw the plot afterward.
 
