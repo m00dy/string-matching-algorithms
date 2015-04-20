@@ -46,5 +46,6 @@ python run_and_test.py
 ```
 
 
-this will generate random input set and run each algorithm according to random input. Plot.ly integration is required to draw the plot afterward.
+this will generate random input set and run each algorithm according to random input. 
+Plot.ly integration is required to draw the plot afterward.
 
