@@ -22,7 +22,7 @@ Build
 
 
 ```
-bash /data/build
+bash /data/data_builder.bash
 ```
 
 This will download around 2gb genome data and merge it to one file.
