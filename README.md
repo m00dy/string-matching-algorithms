@@ -10,7 +10,7 @@ Algorithms implementations are taken from http://www-igm.univ-mlv.fr/~lecroq/str
 
 Testing data is taken from http://www.ncbi.nlm.nih.gov/genome
 
-![alt tag](https://raw.github.com/erenyagdiran/string-matching-algorithms/master/string_search_algorithms.png)
+![alt tag](https://raw.github.com/m00dy/string-matching-algorithms/master/string_search_algorithms.png)
 Y axis represents time in seconds.
 X axis represents input size which is basically a python string
 
